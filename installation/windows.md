@@ -211,9 +211,8 @@ To start the update process, run PowerShell as an administrator and use the foll
 Assuming you have openHAB installed in `C:\openHAB`:
 
 ```shell
-cd C:\openHAB
-. .\runtime\bin\update.ps1
-Update-openHAB -OHVersion x.x.x
+cd C:\openHAB\runtime\bin
+update.bat x.x.x
 ```
 
 Now that openHAB has updated, you only need to run the above commands again for future versions.
